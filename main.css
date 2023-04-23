@@ -1,0 +1,64 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fefefe;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+}
+
+.logo{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    color: #3D535F;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+
+
+.navItems{
+    display: flex;
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a{
+    font-size: 20px;
+    color: #414344;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.navItems li:hover a, .links a:hover{
+    color: #df9d73;
+}
+
+.links a, .links a i{
+    font-size: 20px;
+    color: #414344;
+    margin: 25px 10px;
+}
+
+.links a i:hover{
+    color: #df9d73;
+}
