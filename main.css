@@ -9,7 +9,6 @@
 
 .container{
     width: 100%;
-    min-height: 100vh;
     background-color: #fefefe;
 }
 
@@ -61,4 +60,24 @@ nav{
 
 .links a i:hover{
     color: #df9d73;
+}
+
+.intro{
+    width: 100%;
+    background-color: #fefefe;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    color: #414344;
+}
+
+.intro h1{
+    rotate: 270deg;
+    font-size: 150px;
+}
+.intro #trigo1{
+    rotate: 270deg;
+    filter: saturate(150%);
 }
