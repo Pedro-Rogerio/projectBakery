@@ -12,7 +12,6 @@ body {
   }
 .container{
     width: 100%;
-    background-color: #fefefe;
 }
 
 
@@ -22,6 +21,7 @@ nav{
     justify-content: space-around;
     height: 80px;
     line-height: 80px;
+    background-color: #fefefe;
     z-index: 111;
 }
 
@@ -68,6 +68,7 @@ nav{
 
 .intro{
     width: 100%;
+    height: 1000px;
     background-color: #fefefe;
     color: #414344;
 }
@@ -81,6 +82,7 @@ nav{
     top: -250px;
     left: 1600px;
     animation: right-to-left 1s ease-out forwards;
+        z-index: 2;
 }
 @keyframes right-to-left {
     from {
@@ -97,6 +99,7 @@ nav{
     top: 150px;
     opacity: 0; /* Define a opacidade do elemento para 0 */
     animation: fade-in-animation 2s ease-out forwards; /* Define a animação */
+    z-index: 2;
 }
 
 @keyframes fade-in-animation {
@@ -129,7 +132,7 @@ nav{
     position: absolute;
     top: 800px;
     left: 75px;
-    filter: saturate(150%);
+    filter: saturate(150%) brightness(120%);
     animation: fade-in-animation 2s ease-out forwards; /* Define a animação */
 }
 .intro p{
@@ -152,6 +155,7 @@ nav{
     left: 850px;
     top: 850px;
     color: #fefefe;
+    z-index: 2;
 }
 .intro .btn:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -165,7 +169,7 @@ nav{
     border-radius: 50%;
     border: 10px solid #414344;
     opacity: 0.1;
-    z-index: -1;
+    z-index: 1;
     animation: left-to-right 1.5s ease-out forwards;
   
 }
@@ -176,7 +180,7 @@ nav{
     border-radius: 50%;
     border: 10px solid #414344;
     opacity: 0.1;
-    z-index: -1; 
+    z-index: 1; 
     left: 1200px;
     top: -120px;
     animation: left-to-right 1.5s ease-out forwards;
@@ -184,14 +188,159 @@ nav{
 }
 .intro .circulo3{
     position: absolute;
-    top: 400px;
+    top: 500px;
     left: 900px;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     border: 10px solid #414344;
     opacity: 0.1;
-    z-index: -1;
+    z-index: 1;
     animation: right-to-left 1s ease-out forwards;
   
+}
+
+.aboutUs{
+    width: 100%;
+    height: 400px;
+    color: #414344;
+}
+
+.aboutUs h1{
+    font-size: 75px;
+    color: #c25f2a;
+    font-weight: bold;
+    position: absolute;
+    left: 830px;
+    top: 1000px;
+}
+.aboutUs p{
+    position: absolute;
+    left: 750px;
+    top: 1100px;
+    text-align: center;
+
+}
+.aboutUs .btn{
+    background-color: #414344;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 850px;
+    top: 1250px;
+    color: #fefefe;
+}
+.tri{
+    width: 100%;
+    height: 1000px;
+    color: #414344;
+}
+.tri #trigo{
+    rotate: 90deg;
+    width: 900px;
+    position: absolute;
+    left: -400px;
+    top: 900px;
+    filter: saturate(150%);
+    animation: left-to-right2 1.5s ease-out forwards;
+}
+
+@keyframes left-to-right2 {
+    from {
+        transform: translateY(100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+}
+.tri .bola1 .circulo1{
+    position: absolute;
+    left: 600px;
+    top: 1400px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 0 500px 0);
+}
+.tri .bola1 #cesta{
+    position: absolute;
+    left: 700px;
+    width: 550px;
+}
+.tri .bola1 h1{
+    font-size: 75px;
+    position: absolute;
+    left: 1400px;
+    top: 1550px;
+}
+.tri .bola1 p{
+    position: absolute;
+    left: 1400px;
+    top: 1650px;
+}
+.tri .bola2 .circulo2{
+    position: absolute;
+    left: 300px;
+    top: 1850px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 500px 0 0);
+}
+.tri .bola2 h1{
+    font-size: 75px;
+    position: absolute;
+    left: 200px;
+    top: 1700px;
+}
+.tri .bola2 p{
+    position: absolute;
+    left: 200px;
+    top: 1800px;
+}
+.tri .bola2 #pao1{
+    position: absolute;
+    left: 300px;
+    top: 2050px;
+}
+.tri .bola3 .circulo3{
+    position: absolute;
+    left: 1000px;
+    top: 1800px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 0 0 500px);
+}
+.tri .bola3 h1{
+    font-size: 75px;
+    position: absolute;
+    left: 850px;
+    top: 2550px;
+}
+.tri .bola3 p{
+    position: absolute;
+    left: 850px;
+    top: 2650px;
+}
+.tri .bola3 #cesta{
+    position: absolute;
+    width: 550px;
+    left: 1100px;
+    top: 1900px;
+}
+.tri #pao2{
+    position: absolute;
+    width: 550px;
+    left: 1400px;
+    top: 2500px;
+    filter: saturate(150%);
+    transform: scaleX(-1);
 }
