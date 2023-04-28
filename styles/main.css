@@ -417,3 +417,98 @@ nav{
     z-index: 1;
     animation: left-to-right 1.5s ease-out forwards;
 }
+.padeiro1{
+    width: 100%;
+}
+.padeiro1 .circulo{
+    position: absolute;
+    left: 200px;
+    top: 3850px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 500px 0 0);
+}
+.padeiro1 #foto{
+    position: absolute;
+    left: 400px;
+    top: 3900px;
+    width: 350px;
+    border-radius: 0 0 100px 100px;
+}
+.padeiro1 h1{
+    position: absolute;
+    left: 900px;
+    top: 4000px;
+    font-size: 75px;
+}
+.padeiro1 p{
+    position: absolute;
+    left: 900px;
+    top: 4100px;
+}
+.padeiro1 .btn{
+    background-color: #414344;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    top: 4250px;
+    color: #fefefe;
+}
+.padeiro1 #trigo{
+    position: absolute;
+    rotate: 270deg;
+    left: 1600px;
+    top: 3700px;
+    width: 500px;
+}
+.padeiro2{
+    width: 100%;
+}
+.padeiro2 .circulo{
+    position: absolute;
+    left: 1000px;
+    top: 4650px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 0 0 500px);
+}
+.padeiro2 #foto{
+    position: absolute;
+    left: 1200px;
+    top: 4700px;
+    width: 350px;
+    border-radius: 0 0 100px 100px;
+}
+.padeiro2 h1{
+    position: absolute;
+    left: 300px;
+    top: 4800px;
+    font-size: 75px;
+}
+.padeiro2 p{
+    position: absolute;
+    left: 300px;
+    top: 4925px;
+}
+.padeiro2 .btn{
+    background-color: #414344;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 5100px;
+    color: #fefefe;
+}
