@@ -461,7 +461,7 @@ nav{
     top: 4250px;
     color: #fefefe;
 }
-.padeiro1 #trigo{
+.padeiro1 #trigo3{
     position: absolute;
     rotate: 270deg;
     left: 1600px;
@@ -511,4 +511,22 @@ nav{
     left: 300px;
     top: 5100px;
     color: #fefefe;
+}
+
+
+/*Animação*/
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
