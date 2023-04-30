@@ -108,7 +108,7 @@ Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 ## 📄 Licença
 
-Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE.md](https://github.com/Pedro-Rogerio/projectBakery/blob/main/LICENSE.MD) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
